@@ -54,7 +54,7 @@ public class RegisterTests {
     }
 
     @After
-    public void closeBrowser(){
+    public void closeBrowser() {
         driver.quit();
     }
 }

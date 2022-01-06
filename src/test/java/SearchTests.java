@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
-import java.util.Locale;
 
 public class SearchTests {
 

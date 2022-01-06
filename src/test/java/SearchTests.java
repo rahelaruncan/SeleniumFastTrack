@@ -31,7 +31,7 @@ public class SearchTests {
     }
 
     @Test
-    public void searchTest() {
+    public void searchItems() {
         String searchText = "neck";
         driver.findElement(By.id("search")).sendKeys(searchText);
         driver.findElement(By.cssSelector("#search_mini_form > div.input-box > button")).click();
